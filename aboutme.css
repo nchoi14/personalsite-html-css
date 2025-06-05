@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	width: 960px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 15px;
+	background-color: floralwhite;
+	color:#08ABBA;
+	line-height: 2;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.title {
+	text-align: center
+}
+
+/* Navigation Bar Section Styling */
+
+nav {
+    background-color: #FA894C;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+	border-radius: 30px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+	padding: 0;
+    margin: 0;
+	justify-content: center;
+}
+
+nav a:link, nav a:visited {
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+	spadding: 5px;
+}
+nav a:hover {
+    background-color: antiquewhite;
+    color: #FBA06F;
+    border-radius: 4px;
+}
+
+/* END Navigation Bar Section Styling */
+
+h1{
+	font-size: 35px;
+}
+
+h2 {
+ 	padding-top:10px;
+	text-align: center;
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+p{
+	font-size: 20px;
+	padding: inherit;
+}
+ul {
+	list-style: none;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 160px;
+	margin-bottom: 40px;
+}
+/* Involvement on Campus Section Styling */
+
+.involve {
+	background-color:#FA894C;
+	border-radius: 30px;
+	color: floralwhite;
+}
+.arrow-text::before {
+    content: "➽ ";
+    font-size: 20px;
+    color: #08ABBA;
+    margin-right: 8px;
+}
+.descript{
+	text-align: center;
+	background-color:#FA894C;
+	border-radius: 30px;
+	color: floralwhite;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+section {
+    background-color:antiquewhite;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* END Involvement on Campus Section Styling */
+
+.footer{
+    background-color:#FA894C;
+    text-align: center;
+    padding: 20px 0 20px;
+    font-size: 30px;
+    color: #F9F7F3;
+	margin-top: 30px
+}
+footer p {
+	font-size: 25px;
+}
